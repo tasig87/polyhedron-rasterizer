@@ -1,4 +1,19 @@
 
+# Creator: Tasnim Islam
+"""
+A mini-library containing Primitives, Vec3, and Polyhedron
+
+Primitives: A collection of useful functions in computational geometry, particularly pertaining
+  to orientation and intersection functions on polygons and lines in 3D.
+Vec3: A run-of-the-mill R3 vector class, which is useful for representing coordinates or colors in 3D.
+Polyhedron: A class used for storing and modifying Polyhedrons. Vertices are stored as Vec3 objects,
+  and faces/edges are stored as collections of Vec3 objects.
+"""
+
+
+
+
+
 import numpy as np
 import networkx as nx
 
@@ -300,6 +315,7 @@ class Vec3:
     def copy(self):
         """Returns copy of self."""
         return Vec3(self.x,self.y,self.z)
+
 
 class Polyhedron:
     """

@@ -1,4 +1,21 @@
 
+# Creator: Tasnim Islam
+"""
+A demo program that contains the code to create a test Polyhedron and output to a PyGame display.
+
+While polyhedron.py contains most of the actual heavy work & algorithms, this program is intended
+to be a temporary demo program that uses PyGame's very simple drawing tools to rasterize
+Polyhedrons in real time; the final goal is to have the actual program working in a portable HTML
+file using JavaScript's drawing tools instead.
+Though it is messy, this file's elements are ordered as follows:
+- Library imports & window configurations for PyGame
+- Helper functions
+- Standard polyhedrons
+- Creation of polyhedron_original (what shape is shown in display window)
+- PyGame runtime loop
+"""
+
+
 import numpy as np
 from polyhedron import Polyhedron, Vec3
 from polyhedron import Primitives as pm
@@ -167,19 +184,18 @@ while running:
     # Frame building process begins here
 
 
-
-
-
-    # Wireframe code
-    
+    #Update spinning object
     p = p_original.copy()
     p.rotate(4*np.sin(0.05*t)+0.5*np.sin(0.49*t),t*0.21,t*0.5, Vec3(0,0,cam_distance))
     p = perspective_map(p)
 
 
+    # Wireframe
     for e in p.edges:
         pygame.draw.line(screen,"white", (e[0].x,e[0].y), (e[1].x,e[1].y),line_wgt)
-        
+
+
+    # Solid Face  
     """
     # Solid face code
     for f in pm.face_render_order( p.faces ):
