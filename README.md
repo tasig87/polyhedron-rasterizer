@@ -1,12 +1,12 @@
-**Summary**
+**Summary** \n
 This project is meant
 
 
-**Documentation**
+**Documentation** \n
 In-progress (informal) documentation can be found here until project is finalized:
 
 
-**How To Run**
+**How To Run** \n
 1. Import main.py and polyhedron.py into a Python workspace.
 2. If necessary, install the following relevant libraries into your workspace:
   - numpy
