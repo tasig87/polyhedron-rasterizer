@@ -1,6 +1,6 @@
 ## Description
 
-This project is a WORK IN PROGRESS showcase of a Python-based real-time 3D Rasterizer for Polyhedra. It began as an attempt at recreating an eyecatcher from the video game "The 25th Ward: The Silver Case", and pivoted into an experimental solid face rasterizer from scratch. PyGame is used solely as a display-out "drawing tool" for the time being, though the endgoal is for me to learn enough JavaScript to move the "drawing" process over to a much more portable/lightweight HTML file.
+This project is a WORK IN PROGRESS showcase of a Python-based real-time 3D Rasterizer for Polyhedra. It began as an attempt at recreating an eyecatcher from the video game "The 25th Ward: The Silver Case", and pivoted into an experimental solid face rasterizer from scratch. PyGame is used solely as a display-out "drawing tool" for the time being, though the endgoal is for me to learn enough JavaScript to move the "drawing" process over to a portable HTML file.
 
 Shown below is what the library + demo file is currently capable of.
 
@@ -13,7 +13,7 @@ Shown below is what the library + demo file is currently capable of.
 
 ## Documentation
 
-In-progress (informal) documentation can be found in link below until project is finalized. **It is very informal** and it was intended to be a personal reference for when I write up a formal documentation, so **expect gramatical errors, confusing sentences, and cringy writing**. It is otherwise a very detailed report on how the project was created, explanations behind algorithms and development choices, as well as a list of issues to be addressed and future updates.
+In-progress documentation can be found in link below until project is finalized. It is **very informal** as it was solely intended to be a personal reference for when I write up a formal documentation, so expect gramatical errors, confusing sentences, and cringy writing. It is otherwise a very detailed report on how the project was created, explanations behind algorithms and development choices, as well as a list of issues to be addressed and future updates.
 
 https://docs.google.com/document/d/e/2PACX-1vSz1IgYfsS2MOSI1Tw3kpf4W8gL1FDwTzphNkF9g5in9Hxdyg0w6-D8Qak9tNYzXMgjChloI5RebL94/pub
 
